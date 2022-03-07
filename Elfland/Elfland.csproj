@@ -5,13 +5,13 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Elfland.Forest" />
-	  <None Remove="Elfland.Ocean" />
-	  <None Remove="Elfland.Desert" />
+		<None Remove="Elfland.Forest"/>
+		<None Remove="Elfland.Ocean"/>
+		<None Remove="Elfland.Desert"/>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Elfland.Forest" Version="20220303.1.0" />
-	  <PackageReference Include="Elfland.Ocean" Version="20220303.1.0" />
-	  <PackageReference Include="Elfland.Desert" Version="20220303.2.0" />
+		<PackageReference Include="Elfland.Forest" Version="20220303.1.0"/>
+		<PackageReference Include="Elfland.Ocean" Version="20220307.1.0"/>
+		<PackageReference Include="Elfland.Desert" Version="20220303.2.0"/>
 	</ItemGroup>
 </Project>
